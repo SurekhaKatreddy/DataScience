@@ -1,3 +1,5 @@
+#What are neural networks?
+
 Neural networks reflect the behavior of the human brain, allowing computer programs to recognize patterns and solve common problems in 
 the fields of AI, machine learning, and deep learning. 
 
@@ -15,6 +17,10 @@ The hidden layers of a CNN typically consist of convolutional layers, pooling la
 
 Fig1 : Neural network (https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53 (Links to an external site.))
 
+Why CNN for image classification?
+CNNs are fully connected feed forward neural networks. CNNs are very effective in reducing the number of parameters without losing on the quality of models. Images have high dimensionality (as each pixel is considered as a feature) which suits the above described abilities of CNNs.
+
+# Intro to neural networks:
 Convolution layer as represented by its name convolutes(combines or intertwines) the image. The process of convolution reduces the size of the image by bringing all the information in the field together into a single pixel.
 
 From the rgb representation of the original image, a subset of pixels (called kernel/filter) where the actual object is present is taken. 
