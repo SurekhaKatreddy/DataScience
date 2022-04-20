@@ -1,5 +1,6 @@
 Neural networks reflect the behavior of the human brain, allowing computer programs to recognize patterns and solve common problems in 
 the fields of AI, machine learning, and deep learning. 
+
 <img width="582" alt="image" src="https://user-images.githubusercontent.com/31846843/164258302-b0b0b800-517c-401c-adc7-10112ea48f56.png">
 
 There are different types of NeuralNetworks each of them meant for a specific purpose, CNNs are primarily used for image classification,
