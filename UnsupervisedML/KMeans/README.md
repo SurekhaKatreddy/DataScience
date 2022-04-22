@@ -1,10 +1,10 @@
-K-Means:
+What is K-Means:
 In cluster analysis, the k-means algorithm can be used to partition the input data set into k partitions (clusters).
-However, the pure k-means algorithm is not very flexible, and as such is of limited use (except for when vector quantization
-as above is actually the desired use case). In particular, the parameter k is known to be hard to choose (as discussed above) 
-when not given by external constraints. Another limitation is that it cannot be used with arbitrary distance functions or on 
-non-numerical data. For these use cases, many other algorithms are superior.
 
+Is it supervised or unsupervised?
+Unsupervised as there is no label or target variable.
+
+# Input and output of KMeans
 Input: k = number of clusters to be created.
 Output: The data points are clustered into k clusters
 
