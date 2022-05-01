@@ -12,7 +12,8 @@ The predictive models for predicting a heart failure event were created on the d
 (https://www.kaggle.com/andrewmvd/heart-failure-clinical-data). The dataset contains twelve (12) features, that can be used to predict mortality by 
 heart failure, such as high blood pressure, smoking habits, platelets and diabetes.
 
-EDA:
+# EDA:
+
 <img width="409" alt="image" src="https://user-images.githubusercontent.com/31846843/166161033-ca983b73-cf03-4779-afff-5562925bd4fc.png">
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/31846843/166161042-d6340876-4edf-43c4-b6d1-c8ca57eff7bd.png">
 <img width="411" alt="image" src="https://user-images.githubusercontent.com/31846843/166161058-c293a8cc-379d-4b04-b6cf-b98f80412172.png">
