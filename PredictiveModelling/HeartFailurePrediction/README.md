@@ -24,9 +24,11 @@ heart failure, such as high blood pressure, smoking habits, platelets and diabet
 Performance Indicator:
 Akaike's Information Criterion is an indicator of performance of the model. Lowe the value of AIC, better is the performance of the model. 
 
-Decision Tree:
+# Decision Tree:
+
 <img width="452" alt="image" src="https://user-images.githubusercontent.com/31846843/166161260-654439f1-e575-4cfb-9286-256482751d40.png">
 
-Different models compared:
+# Different models compared:
+
 <img width="431" alt="image" src="https://user-images.githubusercontent.com/31846843/166161372-8b7cd9ef-176c-4121-ba75-b6e1bbf9778c.png">
 
