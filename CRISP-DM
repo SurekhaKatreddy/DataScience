@@ -1,0 +1,23 @@
+
+
+CRISP-DM, which stands for Cross-Industry Standard Process for Data Mining, is an industry-proven way to guide your data mining efforts. 
+I tried to simplify the steps in the Crisp-DM:
+
+
+1. It starts with vague business requriements which needs to be mapped into prescriptive / predictive problems.
+   We might have to clarify with the business on what their requirements are and does it really come under data science problem or 
+   can it solved by traditional programming. Documenting is inevitable to make sure we are on right track.
+2. Once the research questions are formed, next step is to think about what we have as input to our system. If the data is not available right away,
+   we might have to wrangle / collect the data. Open Source is not a low-hanign fruit. Bear in mind to adhere to rules while collecting data. 
+   Even though data is available, we might not be aware of the specifics. Domain experts are the best persons to contact. The better we know / own the
+   data, the better the results are. Exploratory data analysis / Visualizating the correlations / bi-variate analysis, distribution of data, 
+   checking for outliers, understanding significance of outliers in accordance with our research questions is more importance. It is not always a 
+   good idea to remove outliers right away.
+3. Data Preparation : It is hard reality that data never comes clean. So it is inevitable to spend quality time cleaning the data. At each step of cleaning,
+   make a note of the impact of the original distribution of data with the cleaning techniques we have performed.
+
+   
+
+
+
+
