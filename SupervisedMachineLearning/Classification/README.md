@@ -30,7 +30,12 @@ AUC is desirable for the following two reasons:
 -- AUC is independent of scale. 
 -- It measures the quality of the model's predictions at the given threshold no matter what it is.
 
-Residuals:
+Residuals: Indicate the portion of the target that the model is unable to predict.
+Positive residuals indicate that the model is underestimating the target i.e actual target values > predicted values.
+Negative Residuals indicate that the model is overestimating the target i.e actual target values < predicted values.
+
+A bell shaped curve indicates that the model is making mistakes randomly and do no indicates over or under predict which is good.
 
 <img width="582" alt="image" src="https://user-images.githubusercontent.com/31846843/167161813-aad96b62-0c09-49ac-b807-fcad2e7df90f.png">
+
 
