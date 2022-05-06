@@ -3,7 +3,10 @@ Evaluation metrics in classification model:
 Precision and Recall:
 <img width="1025" alt="image" src="https://user-images.githubusercontent.com/31846843/167158921-8a085a81-7cd5-40bf-946e-5b2424e56ca5.png">
 
-Precision is important metric 
+Precision is more important than recall when you would like to have less False Positives in trade off to have more False Negatives.
+Meaning, getting a False Positive is very costly, and a False Negative is not as much. In scenarios like recommender systems for instance,
+our aim to recommend as many possible items the user is interested in while it is ok to recommend few items which might be of interest to the user.
+
 How do you change a model if it is producing too many false positive results?
 Increase the threshold
 
@@ -17,12 +20,17 @@ F1 score = 2 precision * recall / (precision + recall)
 
 
 ROC Curve:
+
 An ROC curve plots TPR vs. FPR at different classification thresholds. Lowering the classification threshold classifies more items as positive, thus increasing both False Positives and True Positives. The following figure shows a typical ROC curve.
 AUC stands for "Area under the ROC Curve." That is, AUC measures the entire two-dimensional area underneath the entire ROC curve
-<img width="344" alt="image" src="https://user-images.githubusercontent.com/31846843/167161169-e542bae2-cf5c-45e8-82b4-50b73d593e44.png">
-AUC is desirable for the following two reasons:
 
-AUC is independent of scale. It measures the quality of the model's predictions at the given threshold no matter what it is.
+<img width="344" alt="image" src="https://user-images.githubusercontent.com/31846843/167161169-e542bae2-cf5c-45e8-82b4-50b73d593e44.png">
+
+AUC is desirable for the following two reasons:
+-- AUC is independent of scale. 
+-- It measures the quality of the model's predictions at the given threshold no matter what it is.
 
 Residuals:
-<img width="772" alt="image" src="https://user-images.githubusercontent.com/31846843/167158586-9f308cb3-f97d-4713-ba03-d5471a261102.png">
+
+<img width="582" alt="image" src="https://user-images.githubusercontent.com/31846843/167161813-aad96b62-0c09-49ac-b807-fcad2e7df90f.png">
+
