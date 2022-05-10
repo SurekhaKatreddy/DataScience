@@ -4,7 +4,7 @@ The data comprises of details such as:
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 62642 entries, 0 to 62641
 Data columns (total 29 columns):
-     Column                   Non-Null Count  Dtype         
+ #    Column                  Non-Null Count  Dtype         
 ---  ------                   --------------  -----         
  0   timestamp                62642 non-null  datetime64[ns]
  1   company                  62637 non-null  object        
